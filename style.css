@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*container tre immagini  */
+.container{
+
+  width: 100vw;
+  height: 100vh;
+}
+
+/* imposto le 3 immagini  */
+.mg,.fall,.ass{
+width: 100vw;
+height: 100vh;
+margin-left: 5px;
+background-size: cover;
+opacity: 0.9;
+
+}
+
+.mg,
+.fall{
+
+  position: relative;
+}
+
+.mg{
+  background-image: url("mg.jpg");
+}
+
+
+.fall{
+  background-image: url("fall.jpg");
+}
+
+
+.ass{
+  background-image: url("ass.jpg");
+  position: absolute;
+}
+
+
+H1{
+position: absolute;
+color: rgb(93, 156, 187);
+left: 50%;
+top: 50%;
+font-size: 50px;
+transform: translate(-50%, -50%);
+
+
+}
