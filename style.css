@@ -13,18 +13,12 @@
 
 /* imposto le 3 immagini  */
 .mg,.fall,.ass{
-width: 100vw;
-height: 100vh;
-margin-left: 5px;
-background-size: cover;
-opacity: 0.9;
-
-}
-
-.mg,
-.fall{
-
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.9;
   position: relative;
+
 }
 
 .mg{
@@ -39,7 +33,7 @@ opacity: 0.9;
 
 .ass{
   background-image: url("ass.jpg");
-  position: absolute;
+
 }
 
 
